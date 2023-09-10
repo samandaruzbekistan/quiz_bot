@@ -44,7 +44,7 @@
                     @endif
                     <div class="col-lg-2"><button class="btn btn-primary" onclick="openForm()">Yangi test +</button></div>
                 </div>
-                <form action="/add-block" method="post" style="display: none" id="forma">
+                <form action="{{ route('add') }}" method="post" style="display: none" id="forma">
                     @csrf
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Test nomini kiriting:</label>
