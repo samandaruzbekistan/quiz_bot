@@ -1,13 +1,13 @@
 <?php
 require_once "Telegram.php";
 
-$token = "6115266796:AAEK7-zye55ZIsByKt0SWcBWbttGW16qwD4";
+$token = "";
 
 // Created at Samandar Sariboyev - samandarsariboyev69@gmail.com - +998 97 567 20 09
-$username = "shoisl0d_bot";
-$host = "localhost";
-$password = "24082003S@man";
-$db = "shoisl0d_bot";
+$username = "";
+$host = "";
+$password = "";
+$db = "";
 
 $telegram = new Telegram($token);
 $data = $telegram->getData();
